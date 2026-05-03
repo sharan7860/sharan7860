@@ -10,7 +10,7 @@
   </a>
 </p>
 
-<img src="https://i.pinimg.com/originals/22/16/5b/22165b850f5da24a7c5114fa99e411b2.gif" alt="Banner" width="100%" />
+<img src="none" alt="Banner" width="100%" />
 
 ## 📌 About Me
 - 👋 Hi, I'm Sharan Kumar
