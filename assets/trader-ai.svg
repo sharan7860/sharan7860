@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="240" viewBox="0 0 1280 240" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">03 / TRADER AI</title>
+  <desc id="desc">A time-series forecasting lab. An abstract mint waveform represents the project, not actual forecast results.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#1B2525"/><stop offset="1" stop-color="#111317"/></linearGradient></defs>
+  <rect x=".5" y=".5" width="1279" height="239" rx="16" fill="url(#bg)" stroke="#31413F"/>
+  <rect y="42" width="4" height="155" rx="2" fill="#8EC9BC"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="44" y="53" fill="#9BD3C6" font-size="16" letter-spacing="3">03 / EXPERIMENTS + VISUALIZATION</text>
+    <text x="42" y="120" fill="#F3F0E8" font-size="52" font-weight="700" letter-spacing="-1.5">TRADER AI</text>
+    <text x="44" y="164" fill="#BFC0C1" font-size="23">A time-series forecasting lab.</text>
+    <text x="44" y="208" fill="#909699" font-size="15" letter-spacing="1.5">PYTHON / STREAMLIT / ARIMA</text>
+  </g>
+  <g transform="translate(758 40)">
+    <path d="M0 25H410M0 80H410M0 135H410M50 0V160M130 0V160M210 0V160M290 0V160M370 0V160" stroke="#30413E"/>
+    <path d="M270 78C290 48 301 83 320 50S351 54 375 30 395 25 414 8V98C391 79 391 99 375 95S338 122 320 108 290 109 270 78Z" fill="#8EC9BC" fill-opacity=".12"/>
+    <path d="M0 113C19 114 17 54 41 60S65 138 89 126 109 36 133 46 151 102 178 92 191 15 217 27 245 114 270 78" stroke="#9BD3C6" stroke-width="3"/>
+    <path d="M270 78C290 58 304 98 321 79S349 98 375 65 395 70 414 52" stroke="#9BD3C6" stroke-width="2.5" stroke-dasharray="7 6"/>
+    <path d="M270 0V160" stroke="#9BD3C6" stroke-opacity=".45" stroke-dasharray="3 5"/>
+    <circle cx="270" cy="78" r="5" fill="#B9E8DE"/>
+  </g>
+  <path d="M1210 42h24v24m-25-1 24-23" stroke="#9BD3C6" stroke-width="2"/>
+</svg>

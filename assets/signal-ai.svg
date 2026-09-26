@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="240" viewBox="0 0 1280 240" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">01 / Signal AI</title>
+  <desc id="desc">AI-assisted market exploration. An abstract amber chart represents the project, not actual market data.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#202127"/><stop offset="1" stop-color="#111317"/></linearGradient><linearGradient id="area" x2="0" y2="1"><stop stop-color="#E9B46F" stop-opacity=".18"/><stop offset="1" stop-color="#E9B46F" stop-opacity="0"/></linearGradient></defs>
+  <rect x=".5" y=".5" width="1279" height="239" rx="16" fill="url(#bg)" stroke="#36373C"/>
+  <rect x="0" y="42" width="4" height="155" rx="2" fill="#EDB76B"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="44" y="53" fill="#EDB76B" font-size="16" letter-spacing="3">01 / AI + DATA</text>
+    <text x="42" y="120" fill="#F3F0E8" font-size="52" font-weight="700" letter-spacing="-1.5">Signal AI</text>
+    <text x="44" y="164" fill="#BFC0C1" font-size="23">AI-assisted market exploration.</text>
+    <text x="44" y="208" fill="#909699" font-size="15" letter-spacing="1.5">TYPESCRIPT / REACT / PYTHON</text>
+  </g>
+  <g transform="translate(760 40)">
+    <path d="M0 0H412M0 50H412M0 100H412M0 150H412M50 0V160M130 0V160M210 0V160M290 0V160M370 0V160" stroke="#34363B"/>
+    <path d="M0 135 40 108 80 118 119 69 159 92 199 47 239 73 280 25 319 42 360 10 408 22V160H0Z" fill="url(#area)"/>
+    <path d="m0 135 40-27 40 10 39-49 40 23 40-45 40 26 41-48 39 17 41-32 48 12" stroke="#EDB76B" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="408" cy="22" r="5" fill="#F5D29E"/>
+  </g>
+  <path d="M1210 42h24v24m-25-1 24-23" stroke="#EDB76B" stroke-width="2"/>
+</svg>

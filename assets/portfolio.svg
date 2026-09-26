@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="240" viewBox="0 0 1280 240" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">02 / My corner of the web</title>
+  <desc id="desc">A personal portfolio with motion and interaction. A lavender wireframe illustration evokes web design.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#22202A"/><stop offset="1" stop-color="#111317"/></linearGradient></defs>
+  <rect x=".5" y=".5" width="1279" height="239" rx="16" fill="url(#bg)" stroke="#3A3543"/>
+  <rect y="42" width="4" height="155" rx="2" fill="#B5A0E2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="44" y="53" fill="#BFA8ED" font-size="16" letter-spacing="3">02 / DESIGN + DEVELOPMENT</text>
+    <text x="42" y="120" fill="#F3F0E8" font-size="48" font-weight="700" letter-spacing="-1.5">My corner of the web</text>
+    <text x="44" y="164" fill="#BFC0C1" font-size="23">A portfolio with a little personality.</text>
+    <text x="44" y="208" fill="#909699" font-size="15" letter-spacing="1.5">REACT / MOTION / INTERACTION</text>
+  </g>
+  <g transform="translate(804 32)">
+    <rect x="28" y="15" width="330" height="169" rx="8" stroke="#706080" transform="rotate(5 193 99)"/>
+    <rect width="330" height="169" rx="8" fill="#1B1922" stroke="#A28ABF"/>
+    <path d="M0 28H330" stroke="#51445E"/>
+    <g fill="#8B739F"><circle cx="16" cy="14" r="3"/><circle cx="28" cy="14" r="3"/><circle cx="40" cy="14" r="3"/></g>
+    <rect x="21" y="51" width="127" height="9" rx="3" fill="#D0B6EF"/>
+    <rect x="21" y="69" width="88" height="9" rx="3" fill="#AE92CC"/>
+    <rect x="21" y="94" width="145" height="4" rx="2" fill="#64536F"/>
+    <rect x="21" y="105" width="116" height="4" rx="2" fill="#64536F"/>
+    <rect x="21" y="127" width="70" height="21" rx="4" fill="#B29ACF"/>
+    <g transform="translate(247 96)" stroke="#C1A5E4"><path d="M0-43 37-22V22L0 43-37 22V-22Z"/><path d="M0-43V43M-37-22 37 22M37-22-37 22M-37-22 0-2 37-22M-37 22 0-2 37 22" stroke-opacity=".65"/></g>
+  </g>
+  <path d="M1210 42h24v24m-25-1 24-23" stroke="#BFA8ED" stroke-width="2"/>
+</svg>
