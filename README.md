@@ -12,7 +12,7 @@
 
 ### A little about me
 
-I'm **Sharan**, a Computer Science Engineering graduate who enjoys turning ideas into things you can use. My projects bring together **AI, data visualization, and web development** — from exploring market data with Python to crafting interfaces with React.
+I'm **Sharan**, a Computer Science Engineering graduate who enjoys turning ideas into things you can use. My work brings together **AI, data visualization, and web development** — from building Signal AI with Python and React to crafting thoughtful interfaces.
 
 I care about how a product works **and** how it feels. This is my workshop for both.
 
@@ -24,9 +24,9 @@ I care about how a product works **and** how it feels. This is my workshop for b
 
 An application for exploring stock data, technical indicators, and AI-assisted analysis, with a React interface and a Python API.
 
-**Built with** · TypeScript · React · FastAPI · Python
+**The project** · TypeScript · React · FastAPI · Python
 <br />
-**[Explore the code ↗](https://github.com/sharan7860/signal-ai)**
+**[Explore Signal AI ↗](https://github.com/sharan7860/signal-ai)**
 
 <br />
 
@@ -40,20 +40,6 @@ My personal website: a home for my projects, with a dark visual style, responsiv
 <br />
 **[Visit the website ↗](https://sharan-portfolio-tan.vercel.app)** · [Explore the code](https://github.com/sharan7860/Sharan-Portfolio)
 
-<br />
-
-<a href="https://github.com/sharan7860/temp-ai">
-  <img src="./assets/trader-ai.svg" width="100%" alt="03 / TRADER AI — a time-series forecasting lab. View the project." />
-</a>
-
-A Streamlit dashboard for investigating stock price history through interactive charts, stationarity tests, time-series decomposition, and configurable ARIMA forecasts.
-
-**Built with** · Python · Streamlit · pandas · Plotly · statsmodels
-<br />
-**[Explore the code ↗](https://github.com/sharan7860/temp-ai)**
-
-<sub>Market projects are experiments in data analysis and visualization; forecasts are exploratory.</sub>
-
 ## My toolkit
 
 | What I'm building | Tools I reach for |
@@ -65,7 +51,7 @@ A Streamlit dashboard for investigating stock price history through interactive 
 
 ### On my workbench
 
-- **Building:** Signal AI and interfaces that make data easier to explore.
+- **Building:** Signal AI — an AI-assisted market exploration experience.
 - **Exploring:** deep learning, LLM applications, and bringing models into web products.
 - **Practicing:** deployment, system design, and thoughtful interaction details.
 
