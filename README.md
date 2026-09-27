@@ -26,7 +26,7 @@ An application for exploring stock data, technical indicators, and AI-assisted a
 
 **The project** · TypeScript · React · FastAPI · Python
 <br />
-**[Explore Signal AI ↗](https://github.com/sharan7860/signal-ai)**
+**[Live demo ↗](https://stellar-signal-ai.vercel.app)** · [Explore Signal AI](https://github.com/sharan7860/signal-ai)
 
 <br />
 
@@ -38,7 +38,7 @@ My personal website: a home for my projects, with a dark visual style, responsiv
 
 **Built with** · React · Vite · Framer Motion · GSAP
 <br />
-**[Visit the website ↗](https://sharan-portfolio-tan.vercel.app)** · [Explore the code](https://github.com/sharan7860/Sharan-Portfolio)
+**[Live portfolio ↗](https://sharan-portfolio-tan.vercel.app)** · [Explore the code](https://github.com/sharan7860/Sharan-Portfolio)
 
 ## My toolkit
 
