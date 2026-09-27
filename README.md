@@ -26,7 +26,7 @@ An application for exploring stock data, technical indicators, and AI-assisted a
 
 **The project** · TypeScript · React · FastAPI · Python
 <br />
-**[Live demo ↗](https://stellar-signal-ai.vercel.app)** · [Explore Signal AI](https://github.com/sharan7860/signal-ai)
+**[Live demo ↗](https://sharan7860.github.io/signal-ai/)** · [Explore Signal AI](https://github.com/sharan7860/signal-ai)
 
 <br />
 
