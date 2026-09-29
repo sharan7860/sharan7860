@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Signal AI developer console</title>
+  <desc id="desc">An animated terminal display shows Signal AI as the active project and the developer stack: TypeScript, React, Python, and FastAPI.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1280" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#20262A"/><stop offset=".48" stop-color="#12171B"/><stop offset="1" stop-color="#181727"/></linearGradient>
+    <linearGradient id="trace" x1="765" y1="65" x2="1194" y2="216" gradientUnits="userSpaceOnUse"><stop stop-color="#8EF0D3"/><stop offset=".52" stop-color="#AFC7FF"/><stop offset="1" stop-color="#C18BF4"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+    <clipPath id="clip"><rect width="1280" height="300" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="300" fill="url(#frame)"/>
+    <path d="M0 48H1280" stroke="#3A4349"/>
+    <g fill="#748087"><circle cx="30" cy="24" r="5"/><circle cx="48" cy="24" r="5"/><circle cx="66" cy="24" r="5"/></g>
+    <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+      <text x="104" y="29" fill="#A5B1B6" font-size="14" letter-spacing="2">SHARAN@WORKSTATION: ~/SIGNAL-AI</text>
+      <text x="36" y="88" fill="#8EF0D3" font-size="16">❯</text>
+      <text x="62" y="88" fill="#D3DBDD" font-size="16">boot --profile sharan7860</text>
+      <text x="62" y="119" fill="#829096" font-size="15">[ok] identity loaded</text>
+      <text x="62" y="146" fill="#829096" font-size="15">[ok] creative mode: enabled</text>
+      <text x="36" y="191" fill="#8EF0D3" font-size="16">❯</text>
+      <text x="62" y="191" fill="#D3DBDD" font-size="16">focus --now</text>
+      <rect x="62" y="213" width="288" height="35" rx="6" fill="#8EF0D3" fill-opacity=".12" stroke="#8EF0D3" stroke-opacity=".42"/>
+      <circle cx="82" cy="230" r="5" fill="#8EF0D3"><animate attributeName="opacity" values="1;.2;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="98" y="235" fill="#B7F7E7" font-size="15" font-weight="700" letter-spacing="1.2">SIGNAL AI / ACTIVE</text>
+      <text x="36" y="274" fill="#6D7A7F" font-size="13" letter-spacing="1.4">TYPESCRIPT  ·  REACT  ·  PYTHON  ·  FASTAPI</text>
+    </g>
+    <g transform="translate(735 66)">
+      <path d="M0 150H468M0 100H468M0 50H468M58 0V170M140 0V170M222 0V170M304 0V170M386 0V170" stroke="#3A4749" stroke-opacity=".6"/>
+      <path d="M0 126 44 118 76 134 111 87 146 105 180 64 216 82 258 38 292 67 332 44 366 57 402 14 432 32 468 4" stroke="url(#trace)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 126 44 118 76 134 111 87 146 105 180 64 216 82 258 38 292 67 332 44 366 57 402 14 432 32 468 4V170H0Z" fill="url(#trace)" fill-opacity=".07"/>
+      <circle r="20" fill="#8EF0D3" fill-opacity=".25" filter="url(#soft)"><animateMotion dur="5s" repeatCount="indefinite" path="M0,126 L44,118 L76,134 L111,87 L146,105 L180,64 L216,82 L258,38 L292,67 L332,44 L366,57 L402,14 L432,32 L468,4"/></circle>
+      <circle r="4" fill="#E0FFF7"><animateMotion dur="5s" repeatCount="indefinite" path="M0,126 L44,118 L76,134 L111,87 L146,105 L180,64 L216,82 L258,38 L292,67 L332,44 L366,57 L402,14 L432,32 L468,4"/></circle>
+      <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="1.5">
+        <text x="0" y="-13" fill="#AAB5B7">SIGNAL STREAM / ONLINE</text>
+        <text x="468" y="-13" text-anchor="end" fill="#8EF0D3">LIVE</text>
+      </g>
+    </g>
+  </g>
+</svg>

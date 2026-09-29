@@ -40,6 +40,14 @@ My personal website: a home for my projects, with a dark visual style, responsiv
 <br />
 **[Live portfolio ↗](https://sharan-portfolio-tan.vercel.app)** · [Explore the code](https://github.com/sharan7860/Sharan-Portfolio)
 
+## System telemetry
+
+<img src="./assets/ai-console.svg" width="100%" alt="Animated AI terminal showing Sharan's developer stack and Signal AI as the active project." />
+
+<sub>LIVE ACTIVITY STREAM · refreshed daily from GitHub</sub>
+
+<img src="https://raw.githubusercontent.com/sharan7860/sharan7860/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated contribution activity trail." />
+
 ## My toolkit
 
 | What I'm building | Tools I reach for |
