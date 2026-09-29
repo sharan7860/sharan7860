@@ -1,5 +1,5 @@
 <a href="https://sharan-portfolio-tan.vercel.app">
-  <img src="./assets/banner.svg" width="100%" alt="Sharan Kumar — software developer exploring AI, data, and the art of building for the web." />
+  <img src="./assets/banner.svg" width="100%" alt="Sharan Kumar — Matrix-inspired creative AI developer banner with a live terminal interface." />
 </a>
 
 <p align="center">
