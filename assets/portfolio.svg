@@ -1,26 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="240" viewBox="0 0 1280 240" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">02 / My corner of the web</title>
-  <desc id="desc">A personal portfolio with motion and interaction. A lavender wireframe illustration evokes web design.</desc>
-  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#22202A"/><stop offset="1" stop-color="#111317"/></linearGradient></defs>
-  <rect x=".5" y=".5" width="1279" height="239" rx="16" fill="url(#bg)" stroke="#3A3543"/>
-  <rect y="42" width="4" height="155" rx="2" fill="#B5A0E2"/>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <text x="44" y="53" fill="#BFA8ED" font-size="16" letter-spacing="3">02 / DESIGN + DEVELOPMENT</text>
-    <text x="42" y="120" fill="#F3F0E8" font-size="48" font-weight="700" letter-spacing="-1.5">My corner of the web</text>
-    <text x="44" y="164" fill="#BFC0C1" font-size="23">A portfolio with a little personality.</text>
-    <text x="44" y="208" fill="#909699" font-size="15" letter-spacing="1.5">REACT / MOTION / INTERACTION</text>
+  <desc id="desc">A personal portfolio with animated interface layers, flowing gradients, and interactive design elements.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1D1728"/><stop offset=".54" stop-color="#120F1C"/><stop offset="1" stop-color="#090A12"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#261D35" stop-opacity=".94"/><stop offset="1" stop-color="#141221" stop-opacity=".8"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E4C6FF"/><stop offset=".45" stop-color="#B993F4"/><stop offset="1" stop-color="#6C6AFF"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#B991FF" stop-opacity=".3"/><stop offset="1" stop-color="#B991FF" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-45%" y="-55%" width="190%" height="210%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="round"><rect width="1280" height="240" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect x=".5" y=".5" width="1279" height="239" rx="16" fill="url(#bg)" stroke="#3D344C"/>
+    <circle cx="1030" cy="109" r="210" fill="url(#halo)"><animate attributeName="r" values="190;224;190" dur="6s" repeatCount="indefinite"/></circle>
+    <path d="M0 42H1280" stroke="#D9BDFF" stroke-opacity=".09"/>
+    <rect y="42" width="4" height="155" rx="2" fill="#CAA6FF" filter="url(#glow)"/>
+    <g fill="#DCC3FF" opacity=".38"><circle cx="643" cy="51" r="2"><animate attributeName="opacity" values=".1;.8;.1" dur="2s" repeatCount="indefinite"/></circle><circle cx="1160" cy="192" r="2"><animate attributeName="opacity" values=".1;.8;.1" dur="3.2s" repeatCount="indefinite"/></circle><circle cx="1050" cy="36" r="1.5"><animate attributeName="opacity" values=".1;.8;.1" dur="2.6s" repeatCount="indefinite"/></circle></g>
+
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="44" y="53" fill="#D2B4FF" font-size="16" letter-spacing="3">02 / DESIGN + DEVELOPMENT</text>
+      <text x="42" y="120" fill="#FCF8FF" font-size="48" font-weight="700" letter-spacing="-1.5">My corner of the web</text>
+      <text x="44" y="164" fill="#D2C7DE" font-size="23">A portfolio with a little personality.</text>
+      <text x="44" y="208" fill="#A797B2" font-size="15" letter-spacing="1.5">REACT / MOTION / INTERACTION</text>
+      <rect x="44" y="71" width="145" height="27" rx="13.5" fill="#2A1E3A" stroke="#D0ACFF" stroke-opacity=".45"/>
+      <circle cx="61" cy="84.5" r="4" fill="#D0A9FF" filter="url(#glow)"><animate attributeName="opacity" values=".28;1;.28" dur="1.7s" repeatCount="indefinite"/></circle>
+      <text x="73" y="89" fill="#EAD9FF" font-size="11" font-weight="700" letter-spacing="1.2">MOTION ACTIVE</text>
+    </g>
+
+    <!-- layered creative interface -->
+    <g transform="translate(748 23)">
+      <g transform="translate(34 14)" opacity=".7">
+        <rect width="382" height="183" rx="14" fill="#171323" stroke="#8E73B8" transform="rotate(5 191 91.5)"><animateTransform attributeName="transform" type="rotate" values="5 191 91.5;2 191 91.5;5 191 91.5" dur="6s" repeatCount="indefinite"/></rect>
+      </g>
+      <rect x="18" y="5" width="382" height="183" rx="14" fill="url(#panel)" stroke="url(#accent)" stroke-opacity=".75"/>
+      <path d="M18 42H400" stroke="#C3A0F0" stroke-opacity=".24"/>
+      <circle cx="43" cy="24" r="4" fill="#FF8AB0"/><circle cx="58" cy="24" r="4" fill="#FFD278"/><circle cx="73" cy="24" r="4" fill="#C5A5FF"/>
+      <text x="96" y="28" fill="#D6C4ED" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.2">sharan.dev / canvas</text>
+
+      <rect x="44" y="66" width="144" height="11" rx="5.5" fill="url(#accent)"><animate attributeName="width" values="110;154;144;110" dur="5s" repeatCount="indefinite"/></rect>
+      <rect x="44" y="87" width="95" height="8" rx="4" fill="#B99BE7"/><rect x="44" y="111" width="166" height="4" rx="2" fill="#6E5B81"/><rect x="44" y="122" width="124" height="4" rx="2" fill="#6E5B81"/>
+      <rect x="44" y="146" width="86" height="25" rx="7" fill="#B99AF1" filter="url(#glow)"/>
+      <text x="87" y="163" text-anchor="middle" fill="#1B1229" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700">EXPLORE</text>
+
+      <!-- orbiting cursor and responsive geometry -->
+      <g transform="translate(304 111)" stroke="url(#accent)" stroke-width="1.5" fill="none">
+        <path d="M0-52 45-26V26L0 52-45 26V-26Z"/>
+        <path d="M0-52V52M-45-26 45 26M45-26-45 26M-45-26 0 0 45-26M-45 26 0 0 45 26" stroke-opacity=".6"/>
+        <circle r="62" stroke="#D7B8FF" stroke-opacity=".18" stroke-dasharray="3 7"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="11s" repeatCount="indefinite"/></circle>
+        <circle cx="0" cy="-62" r="4" fill="#E4CBFF" filter="url(#glow)"><animate attributeName="r" values="3;6;3" dur="1.9s" repeatCount="indefinite"/></circle>
+      </g>
+      <path d="M370 148l13 22-10-3-5 9-5-2 5-9-8-6z" fill="#F1E5FF" filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0 0;4 -5;0 0" dur="3.5s" repeatCount="indefinite"/></path>
+      <path d="M18 205H400" stroke="#C6A6F2" stroke-opacity=".2"/>
+      <text x="44" y="218" fill="#BA9EE7" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1.3">INTERACTION / ON</text>
+      <g transform="translate(298 211)" fill="#D3B6FC"><rect width="9" height="9" rx="2"><animate attributeName="opacity" values=".25;1;.25" dur="1.5s" repeatCount="indefinite"/></rect><rect x="15" width="9" height="9" rx="2"><animate attributeName="opacity" values=".25;1;.25" dur="1.5s" begin=".25s" repeatCount="indefinite"/></rect><rect x="30" width="9" height="9" rx="2"><animate attributeName="opacity" values=".25;1;.25" dur="1.5s" begin=".5s" repeatCount="indefinite"/></rect></g>
+    </g>
+    <path d="M1210 42h24v24m-25-1 24-23" stroke="#D5B2FF" stroke-width="2"/>
   </g>
-  <g transform="translate(804 32)">
-    <rect x="28" y="15" width="330" height="169" rx="8" stroke="#706080" transform="rotate(5 193 99)"/>
-    <rect width="330" height="169" rx="8" fill="#1B1922" stroke="#A28ABF"/>
-    <path d="M0 28H330" stroke="#51445E"/>
-    <g fill="#8B739F"><circle cx="16" cy="14" r="3"/><circle cx="28" cy="14" r="3"/><circle cx="40" cy="14" r="3"/></g>
-    <rect x="21" y="51" width="127" height="9" rx="3" fill="#D0B6EF"/>
-    <rect x="21" y="69" width="88" height="9" rx="3" fill="#AE92CC"/>
-    <rect x="21" y="94" width="145" height="4" rx="2" fill="#64536F"/>
-    <rect x="21" y="105" width="116" height="4" rx="2" fill="#64536F"/>
-    <rect x="21" y="127" width="70" height="21" rx="4" fill="#B29ACF"/>
-    <g transform="translate(247 96)" stroke="#C1A5E4"><path d="M0-43 37-22V22L0 43-37 22V-22Z"/><path d="M0-43V43M-37-22 37 22M37-22-37 22M-37-22 0-2 37-22M-37 22 0-2 37 22" stroke-opacity=".65"/></g>
-  </g>
-  <path d="M1210 42h24v24m-25-1 24-23" stroke="#BFA8ED" stroke-width="2"/>
 </svg>
