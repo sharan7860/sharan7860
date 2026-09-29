@@ -52,10 +52,13 @@ My personal website: a home for my projects, with a dark visual style, responsiv
 
 | What I'm building | Tools I reach for |
 | :--- | :--- |
-| Web experiences | TypeScript, JavaScript, React, HTML, CSS |
-| APIs & applications | Python, FastAPI, Node.js, Git |
-| Data & ML experiments | pandas, NumPy, TensorFlow, statsmodels |
-| Visuals & interaction | Plotly, Matplotlib, Framer Motion, GSAP |
+| Web experiences | TypeScript, JavaScript, React, HTML, CSS, Tailwind CSS, Vite |
+| APIs & applications | Python, FastAPI, Node.js, REST APIs, Pydantic, Uvicorn |
+| Data & ML experiments | pandas, NumPy, TensorFlow, statsmodels, yfinance |
+| Visuals & interaction | Recharts, Plotly, Matplotlib, Framer Motion, GSAP |
+| AI product work | OpenRouter API, LLM integrations, prompt design |
+| Data & deployment | MongoDB, GitHub Actions, GitHub Pages, Vercel |
+| Developer workflow | Git, GitHub, npm, pip, virtual environments |
 
 ### On my workbench
 
